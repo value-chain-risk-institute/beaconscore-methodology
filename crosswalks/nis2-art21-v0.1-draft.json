@@ -1,0 +1,999 @@
+{
+ "id": "beaconscore-nis2-crosswalk",
+ "version": "0.1.1-draft",
+ "date": "2026-07-16",
+ "license": "CC BY 4.0",
+ "framework": {
+  "name": "Directive (EU) 2022/2555 (NIS2), Article 21(2) minimum measures",
+  "measures": {
+   "a": "Policies on risk analysis and information system security",
+   "b": "Incident handling",
+   "c": "Business continuity: backup management, disaster recovery, crisis management",
+   "d": "Supply chain security, incl. supplier and service-provider relationships",
+   "e": "Security in acquisition, development and maintenance, incl. vulnerability handling and disclosure",
+   "f": "Policies and procedures to assess effectiveness of cybersecurity risk-management measures",
+   "g": "Basic cyber hygiene practices and cybersecurity training",
+   "h": "Policies on the use of cryptography and, where appropriate, encryption",
+   "i": "Human resources security, access control policies and asset management",
+   "j": "Multi-factor/continuous authentication; secured voice, video, text and emergency communications"
+  }
+ },
+ "method": "Each BeaconScore subcriterion maps to the Article 21(2) measure(s) it provides evidence toward. Draft mappings are direct (subcriterion -> measure); a future revision will route through SCF control IDs (subcriterion -> SCF -> NIS2) for third-party defensibility. A mapping means the subcriterion's maturity score is evidence for that measure, not that a high score alone demonstrates compliance.",
+ "status": "DRAFT v0.1 for review — not for compliance use. SCF routing and legal review pending.",
+ "mappings": {
+  "ai-cogsec-v1": [
+   {
+    "key": "1a",
+    "title": "Training data provenance and curation",
+    "nis2": [
+     "d"
+    ]
+   },
+   {
+    "key": "1b",
+    "title": "Fine-tuning controls and audit",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "1c",
+    "title": "Model artifact integrity",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "1d",
+    "title": "Persona and value-content curation",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "1e",
+    "title": "Backdoor / sleeper-agent regression testing",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "1f",
+    "title": "Anti-poisoning posture (small-N threat awareness)",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "2a",
+    "title": "Memory write provenance and trust-tiering",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "2b",
+    "title": "External-content / trusted-instruction separation",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "2c",
+    "title": "Write-time validation and sanitization",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "2d",
+    "title": "Memory review and belief/drift self-audit",
+    "nis2": [
+     "f"
+    ]
+   },
+   {
+    "key": "2e",
+    "title": "No auto-promotion into identity or training",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3a",
+    "title": "Untrusted-content handling and capability control",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3b",
+    "title": "Cloaking and poisoned-web defense",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3c",
+    "title": "Encoding sanitization",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "3d",
+    "title": "Retrieval/corpus integrity",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3e",
+    "title": "Browser/session isolation and containment monitoring",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3x",
+    "title": "Multimodal / visual prompt-injection resistance",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4a",
+    "title": "Human-in-the-loop gating for irreversible actions",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4b",
+    "title": "Tool capability-scoping, signing/pinning, allow-listing",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "4c",
+    "title": "Egress and output controls",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4d",
+    "title": "Tool metadata/output treated as untrusted",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4e",
+    "title": "Dependency-execution safety",
+    "nis2": [
+     "d"
+    ]
+   },
+   {
+    "key": "4x",
+    "title": "Audit-log integrity",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "4y",
+    "title": "Tool / MCP / interface containment",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "5a",
+    "title": "Inter-agent message trust scoping and provenance",
+    "nis2": [
+     "j"
+    ]
+   },
+   {
+    "key": "5b",
+    "title": "Least-privilege and escalation checkpoints",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "5c",
+    "title": "Propagation monitoring",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "5d",
+    "title": "Addressing discipline and latency-race control",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "5x",
+    "title": "Agent identity & authority integrity",
+    "nis2": [
+     "i",
+     "j"
+    ]
+   },
+   {
+    "key": "6a",
+    "title": "Evidence-bound, provisional belief-holding",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "6b",
+    "title": "Periodic belief re-opening / self-audit",
+    "nis2": [
+     "f"
+    ]
+   },
+   {
+    "key": "6c",
+    "title": "Anti-calcification / anti-confabulation discipline",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "6d",
+    "title": "Stakes-indexed commitment gating",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "7a",
+    "title": "Provenance-based assessment",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "7b",
+    "title": "Independence verification",
+    "nis2": [
+     "f"
+    ]
+   },
+   {
+    "key": "7c",
+    "title": "Incentive analysis",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "7d",
+    "title": "Prediction-based grounding",
+    "nis2": [
+     "f"
+    ]
+   },
+   {
+    "key": "7e",
+    "title": "Self-sealing-rigidity detection",
+    "nis2": [
+     "f"
+    ]
+   }
+  ],
+  "data-v1": [
+   {
+    "key": "1a",
+    "title": "Data source provenance and lineage",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "1b",
+    "title": "Data classification and labeling",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "1c",
+    "title": "Third-party and shared-data trust controls",
+    "nis2": [
+     "d"
+    ]
+   },
+   {
+    "key": "2a",
+    "title": "Authentication to data stores",
+    "nis2": [
+     "i",
+     "j"
+    ]
+   },
+   {
+    "key": "2b",
+    "title": "Authorization and least-privilege on data",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "2c",
+    "title": "Non-human and service identity for data access",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "3a",
+    "title": "Data minimization and purpose limitation",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3b",
+    "title": "PII/PHI discovery and inventory",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "3c",
+    "title": "Consent and data-subject-rights handling (DSAR)",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4a",
+    "title": "Encryption at rest and in transit",
+    "nis2": [
+     "h"
+    ]
+   },
+   {
+    "key": "4b",
+    "title": "Key management",
+    "nis2": [
+     "h"
+    ]
+   },
+   {
+    "key": "4c",
+    "title": "Data loss prevention and egress controls",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "5a",
+    "title": "Data integrity controls",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "5b",
+    "title": "Backup and recovery (RPO/RTO)",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "5c",
+    "title": "Retention and defensible deletion",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "6a",
+    "title": "Data-store security monitoring and logging",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6b",
+    "title": "Data breach detection and response",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6c",
+    "title": "Data-store vulnerability and misconfiguration management",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "4d",
+    "title": "Cryptographic standards and crypto-agility",
+    "nis2": [
+     "h"
+    ]
+   }
+  ],
+  "facilities-v1": [
+   {
+    "key": "1a",
+    "title": "Facility and building-system inventory",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "1b",
+    "title": "Building/OT system provenance and SBOM",
+    "nis2": [
+     "d"
+    ]
+   },
+   {
+    "key": "1c",
+    "title": "Third-party facility and OT vendor governance",
+    "nis2": [
+     "d"
+    ]
+   },
+   {
+    "key": "2a",
+    "title": "Physical access control and badging",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "2b",
+    "title": "Multi-factor physical access to sensitive areas",
+    "nis2": [
+     "i",
+     "j"
+    ]
+   },
+   {
+    "key": "2c",
+    "title": "Building-system credential and identity management",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "3a",
+    "title": "Physical privacy controls",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3b",
+    "title": "Surveillance and visitor data minimization",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3c",
+    "title": "Privacy-by-design in facility architecture",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4a",
+    "title": "Physical perimeter and intrusion protection",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "4b",
+    "title": "OT/building-system network segmentation",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4c",
+    "title": "Environmental protection (power, HVAC, fire)",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "5a",
+    "title": "Life-safety and physical safety systems",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "5b",
+    "title": "Facility resilience and redundancy",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "5c",
+    "title": "OT/building-system integrity and failsafe",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "6a",
+    "title": "Physical surveillance and monitoring",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6b",
+    "title": "OT/building-system threat detection and response",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6c",
+    "title": "Facility/OT vulnerability and patch management",
+    "nis2": [
+     "e"
+    ]
+   }
+  ],
+  "people-v1": [
+   {
+    "key": "1a",
+    "title": "Personnel vetting and background screening",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "1b",
+    "title": "User behavioral baselining",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "1c",
+    "title": "Individual accountability and no shared accounts",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "2a",
+    "title": "Authentication strength",
+    "nis2": [
+     "j"
+    ]
+   },
+   {
+    "key": "2b",
+    "title": "Identity lifecycle: joiners, movers, leavers",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "2c",
+    "title": "Single sign-on and federation",
+    "nis2": [
+     "i",
+     "j"
+    ]
+   },
+   {
+    "key": "3a",
+    "title": "Consent and personal-data handling by staff",
+    "nis2": [
+     "g"
+    ]
+   },
+   {
+    "key": "3b",
+    "title": "Workforce privacy controls",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3c",
+    "title": "Privacy training and awareness",
+    "nis2": [
+     "g"
+    ]
+   },
+   {
+    "key": "4a",
+    "title": "Privileged access management and least privilege",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "4b",
+    "title": "Security awareness and anti-phishing training",
+    "nis2": [
+     "g"
+    ]
+   },
+   {
+    "key": "4c",
+    "title": "Insider-threat and social-engineering resistance",
+    "nis2": [
+     "g"
+    ]
+   },
+   {
+    "key": "5a",
+    "title": "Role clarity and segregation of duties",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "5b",
+    "title": "Competency and security-training currency",
+    "nis2": [
+     "g"
+    ]
+   },
+   {
+    "key": "5c",
+    "title": "Key-person risk, succession, and coverage",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "6a",
+    "title": "User activity monitoring",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6b",
+    "title": "Insider-threat detection and response",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6c",
+    "title": "Offboarding and access-revocation integrity",
+    "nis2": [
+     "i"
+    ]
+   }
+  ],
+  "processes-v1": [
+   {
+    "key": "1a",
+    "title": "Process documentation and standardization",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "1b",
+    "title": "Process ownership and accountability",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "1c",
+    "title": "Process change provenance and version control",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "2a",
+    "title": "Process ownership-to-role mapping and RACI",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "2b",
+    "title": "Step-level attribution to verified identity",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "2c",
+    "title": "Non-repudiation on approvals",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "3a",
+    "title": "Privacy impact assessment in process design",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3b",
+    "title": "Data minimization in workflows",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3c",
+    "title": "Privacy-by-design in process templates",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4a",
+    "title": "Segregation of duties and approval gates",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "4b",
+    "title": "Process control framework",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4c",
+    "title": "Process exception and deviation handling",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "5a",
+    "title": "Change management",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "5b",
+    "title": "Business continuity and process recovery",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "5c",
+    "title": "Process integrity and deviation detection",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6a",
+    "title": "Process control monitoring",
+    "nis2": [
+     "f"
+    ]
+   },
+   {
+    "key": "6b",
+    "title": "Control effectiveness measurement and audit",
+    "nis2": [
+     "f"
+    ]
+   },
+   {
+    "key": "6c",
+    "title": "Continuous process improvement and mining",
+    "nis2": [
+     "f"
+    ]
+   }
+  ],
+  "technology-v1": [
+   {
+    "key": "1a",
+    "title": "Asset inventory and software provenance/SBOM",
+    "nis2": [
+     "i",
+     "d"
+    ]
+   },
+   {
+    "key": "1b",
+    "title": "Configuration baseline and integrity",
+    "nis2": [
+     "e",
+     "g"
+    ]
+   },
+   {
+    "key": "1c",
+    "title": "Third-party and supply-chain component trust",
+    "nis2": [
+     "d"
+    ]
+   },
+   {
+    "key": "1x",
+    "title": "Dependency maintainer-health & provenance",
+    "nis2": [
+     "d"
+    ]
+   },
+   {
+    "key": "2a",
+    "title": "System and service authentication",
+    "nis2": [
+     "i",
+     "j"
+    ]
+   },
+   {
+    "key": "2b",
+    "title": "Privileged access management",
+    "nis2": [
+     "i"
+    ]
+   },
+   {
+    "key": "2c",
+    "title": "Device/workload identity and attestation",
+    "nis2": [
+     "i",
+     "j"
+    ]
+   },
+   {
+    "key": "3a",
+    "title": "Data-in-transit and at-rest protection on systems",
+    "nis2": [
+     "h"
+    ]
+   },
+   {
+    "key": "3b",
+    "title": "Telemetry/logging data minimization",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "3c",
+    "title": "Network segmentation and need-to-know access",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "4a",
+    "title": "Vulnerability and patch management",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "4b",
+    "title": "Endpoint and workload protection (EDR)",
+    "nis2": [
+     "b",
+     "g"
+    ]
+   },
+   {
+    "key": "4c",
+    "title": "Network security controls (firewall/IPS/egress)",
+    "nis2": [
+     "a"
+    ]
+   },
+   {
+    "key": "5a",
+    "title": "Change and configuration management",
+    "nis2": [
+     "e"
+    ]
+   },
+   {
+    "key": "5b",
+    "title": "Resilience, backup and DR (RTO/RPO)",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "5c",
+    "title": "Capacity and availability monitoring",
+    "nis2": [
+     "c"
+    ]
+   },
+   {
+    "key": "6a",
+    "title": "Security monitoring and SIEM coverage",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6b",
+    "title": "Incident detection and response",
+    "nis2": [
+     "b"
+    ]
+   },
+   {
+    "key": "6c",
+    "title": "Secure SDLC and hardening standards",
+    "nis2": [
+     "e"
+    ]
+   }
+  ]
+ },
+ "coverage_summary": {
+  "a": {
+   "measure": "Policies on risk analysis and information system security",
+   "evidence_count": 41
+  },
+  "b": {
+   "measure": "Incident handling",
+   "evidence_count": 13
+  },
+  "c": {
+   "measure": "Business continuity: backup management, disaster recovery, crisis management",
+   "evidence_count": 9
+  },
+  "d": {
+   "measure": "Supply chain security, incl. supplier and service-provider relationships",
+   "evidence_count": 8
+  },
+  "e": {
+   "measure": "Security in acquisition, development and maintenance, incl. vulnerability handling and disclosure",
+   "evidence_count": 13
+  },
+  "f": {
+   "measure": "Policies and procedures to assess effectiveness of cybersecurity risk-management measures",
+   "evidence_count": 8
+  },
+  "g": {
+   "measure": "Basic cyber hygiene practices and cybersecurity training",
+   "evidence_count": 7
+  },
+  "h": {
+   "measure": "Policies on the use of cryptography and, where appropriate, encryption",
+   "evidence_count": 4
+  },
+  "i": {
+   "measure": "Human resources security, access control policies and asset management",
+   "evidence_count": 28
+  },
+  "j": {
+   "measure": "Multi-factor/continuous authentication; secured voice, video, text and emergency communications",
+   "evidence_count": 8
+  }
+ },
+ "notes": "Mapping this rubric set against Art. 21(2) initially surfaced a gap: BeaconScore addressed encryption and key management but had no policy-level cryptography criterion (standards, cryptographic asset inventory/CBOM, crypto-agility, PQC readiness) matching measure (h). Fixed in the same revision: data-v1 subcriterion 4d added 2026-07-16. The crosswalk exercise improving the instrument is working as intended."
+}

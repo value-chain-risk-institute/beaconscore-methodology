@@ -4,6 +4,20 @@ BeaconScore is VCRI's free, open, in-browser security-posture self-assessment. M
 
 ---
 
+## 2026-07-20 — Data rubric **v1.1** + NIS2 Article 21(2) crosswalk **v0.1-draft**
+
+**Summary:** one new subcriterion in the Data rubric (`data-v1`), and first publication of the NIS2 crosswalk. The rubric change was made 2026-07-16 during the crosswalk exercise and is published here together with it.
+
+**1. Data rubric: new subcriterion 4d — Cryptographic standards and crypto-agility.** Mapping BeaconScore against NIS2 Article 21(2) exposed a gap in our own instrument: measure (h) requires *policies* on cryptography use, and the rubric scored encryption implementation (4a) but had no criterion for cryptographic standards, approved-algorithm policy, or crypto-agility (including PQC transition planning). The instrument was fixed the same day the gap was found. Behavior anchors span "no cryptographic standards" (0) to "algorithm inventory, approved-suites policy, and rehearsed crypto-agility including PQC migration" (5).
+
+**Weight transparency (published-weights ethos):** the Protection dimension (4) renormalized from 3 to 4 subcriteria: 4a 0.40→0.35 · 4b 0.30→0.25 · 4c 0.30→0.25 · **4d 0.15 (new)**. All other dimensions unchanged. Impact on grades: Protection is 20% of the Data grade; no existing assessment moves a full letter from this change alone.
+
+**2. NIS2 crosswalk (new, `crosswalks/nis2-art21-v0.1-draft.json`):** a draft mapping of all 130 BeaconScore subcriteria to the ten NIS2 Article 21(2) minimum measures (a)–(j), machine-readable, CC BY 4.0, versioned. Mappings are **evidence-toward-a-measure, not compliance demonstration**. It maps to the Directive's text, not to any national transposition; national mappings are future work with national partners. Scrutiny and corrections welcome: info@valuechainrisk.org.
+
+**Known follow-up:** the offline single-file download (`vcri-scorer-offline.html`) still embeds the prior Data rubric and will be rebuilt to match.
+
+---
+
 ## 2026-06-25 — AI Cognitive-Security rubric **v1.1**
 
 **Summary:** Added three behavior-anchored subcriteria to the AI Cognitive-Security rubric (`ai-cogsec-v1`), strengthening coverage of multi-agent identity, log integrity, and tool/MCP containment. The rubric's floor only rises — coverage gets more complete; nothing was removed.
