@@ -1,520 +1,651 @@
 {
  "title": "VCRI Stablecoin Docket Citation Index",
- "description": "Machine-readable index of all posted public comment letters on FDIC RIN 3064-AG19 and RIN 3064-AG20 (GENIUS Act stablecoin rulemakings), with source URLs. Supports VCRI's AG29 synthesis comment. CC BY 4.0.",
+ "description": "Machine-readable index of all posted public comment letters and memoranda on FDIC RIN 3064-AG19 and RIN 3064-AG20 (GENIUS Act stablecoin rulemakings), each linked to its source on fdic.gov. Supports VCRI's AG29 synthesis comment. CC BY 4.0.",
  "compiled": "2026-07",
  "rulemakings": {
   "AG19": "GENIUS Act Requirements and Standards for FDIC-Supervised PPSIs and IDIs",
   "AG20": "Approval Requirements for Issuance of Payment Stablecoins by Subsidiaries of FDIC-Supervised IDIs"
  },
- "letter_count": 85,
+ "counts": {
+  "total": 91,
+  "letters": 90,
+  "memoranda": 1
+ },
  "letters": [
   {
    "id": "aba-bpi-clearing-house-cba-icba-drew-ruben-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/aba-bpi-clearing-house-cba-icba-drew-ruben-rin-3064-ag20.pdf",
    "words": 919
   },
   {
    "id": "aba-bpi-clearing-house-cba-icba-drew-ruben-rin-3064-ag202",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/aba-bpi-clearing-house-cba-icba-drew-ruben-rin-3064-ag202.pdf",
    "words": 2663
   },
   {
    "id": "aimichia-technology-co-ltd-jim-lin-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/aimichia-technology-co-ltd-jim-lin-rin-3064-ag19.pdf",
    "words": 1289
   },
   {
    "id": "american-bankers-association-aba-and-4-others-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/american-bankers-association-aba-and-4-others-rin-3064-ag20.pdf",
    "words": 922
   },
   {
    "id": "american-bankers-association-kaye-lynch-sparks-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/american-bankers-association-kaye-lynch-sparks-rin-3064-ag19.pdf",
    "words": 25847
   },
   {
    "id": "american-fintech-council-ian-moloney-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/american-fintech-council-ian-moloney-rin-3064-ag20.pdf",
    "words": 1566
   },
   {
    "id": "american-institute-cpas-aicpa-susan-s-coffey-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/american-institute-cpas-aicpa-susan-s-coffey-rin-3064-ag19.pdf",
    "words": 354
   },
   {
    "id": "aspen-institute-civic-ai-leader-rohan-sharma-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/aspen-institute-civic-ai-leader-rohan-sharma-rin-3064-ag20.pdf",
    "words": 811
   },
   {
    "id": "attion-alyson-stone-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/attion-alyson-stone-rin-3064-ag19.pdf",
    "words": 3961
   },
   {
    "id": "attion-consulting-llc-alyson-stone-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/attion-consulting-llc-alyson-stone-rin-3064-ag20.pdf",
    "words": 618
   },
   {
    "id": "auditchain-labs-ag-jason-meyers-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/auditchain-labs-ag-jason-meyers-rin-3064-ag19.pdf",
    "words": 6063
   },
   {
    "id": "auditchain-labs-ag-jason-meyers-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/auditchain-labs-ag-jason-meyers-rin-3064-ag20.pdf",
    "words": 6623
   },
   {
    "id": "better-markers-inc-amanda-fischer-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/better-markers-inc-amanda-fischer-rin-3064-ag20.pdf",
    "words": 10361
   },
   {
    "id": "better-markets-amanda-fischer-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/better-markets-amanda-fischer-rin-3064-ag19.pdf",
    "words": 19944
   },
   {
    "id": "blockchain-association-ashok-pinto-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/blockchain-association-ashok-pinto-rin-3064-ag19.pdf",
    "words": 29358
   },
   {
    "id": "blockchain-association-ashok-pinto-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/blockchain-association-ashok-pinto-rin-3064-ag20.pdf",
    "words": 2976
   },
   {
    "id": "bny-tiffany-eng-patrick-corker-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/bny-tiffany-eng-patrick-corker-rin-3064-ag19.pdf",
    "words": 2884
   },
   {
+   "id": "bpi-tch-cba-paige-paridon-rodney-abele-david-pommerehn-rin-3064-ag19",
+   "rin": "AG19",
+   "kind": "letter",
+   "source_pdf": "https://www.fdic.gov/federal-register-publications/bpi-tch-cba-paige-paridon-rodney-abele-david-pommerehn-rin-3064-ag19",
+   "words": 2984
+  },
+  {
    "id": "canton-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/canton-rin-3064-ag19.pdf",
    "words": 2876
   },
   {
    "id": "capitol-federal-savings-bank-natalie-g-haag-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/capitol-federal-savings-bank-natalie-g-haag-rin-3064-ag19.pdf",
    "words": 1502
   },
   {
    "id": "caq-dennis-mcgowan-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/caq-dennis-mcgowan-rin-3064-ag19.pdf",
    "words": 3933
   },
   {
    "id": "cci-ji-hun-kim-george-leonardo-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/cci-ji-hun-kim-george-leonardo-rin-3064-ag19.pdf",
    "words": 3128
   },
   {
+   "id": "center-regulatory-analysis-and-engagement-andrew-langer-rin-3064-ag19",
+   "rin": "AG19",
+   "kind": "letter",
+   "source_pdf": "https://www.fdic.gov/federal-register-publications/center-regulatory-analysis-and-engagement-andrew-langer-rin-3064-ag19",
+   "words": 6197
+  },
+  {
+   "id": "center-regulatory-analysis-and-engagement-andrew-langer-rin-3064-ag20",
+   "rin": "AG20",
+   "kind": "letter",
+   "source_pdf": "https://www.fdic.gov/federal-register-publications/center-regulatory-analysis-and-engagement-andrew-langer-rin-3064-ag20",
+   "words": 6054
+  },
+  {
    "id": "chainalysis-jordan-wain-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/chainalysis-jordan-wain-rin-3064-ag19.pdf",
    "words": 3167
   },
   {
    "id": "chainalysis-jordan-wain-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/chainalysis-jordan-wain-rin-3064-ag20.pdf",
    "words": 6432
   },
   {
    "id": "circle-internet-group-inc-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/circle-internet-group-inc-rin-3064-ag20.pdf",
    "words": 4750
   },
   {
    "id": "circle-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/circle-rin-3064-ag19.pdf",
    "words": 27972
   },
   {
    "id": "clifford-chance-jesse-overall-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/clifford-chance-jesse-overall-rin-3064-ag20.pdf",
    "words": 2385
   },
   {
    "id": "coinbase-faryar-shirzad-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/coinbase-faryar-shirzad-rin-3064-ag19.pdf",
    "words": 8570
   },
   {
    "id": "coinbase-scott-bauguess-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/coinbase-scott-bauguess-rin-3064-ag20.pdf",
    "words": 745
   },
   {
    "id": "conference-state-bank-supervisors-brandon-milhorn-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/conference-state-bank-supervisors-brandon-milhorn-rin-3064-ag19.pdf",
    "words": 3156
   },
   {
    "id": "consensys-software-inc-william-hughes-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/consensys-software-inc-william-hughes-rin-3064-ag19.pdf",
    "words": 6012
   },
   {
    "id": "csbs-brandon-milhorn-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/csbs-brandon-milhorn-rin-3064-ag20.pdf",
    "words": 2220
   },
   {
    "id": "custodia-caitlin-ling-william-neurohr-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/custodia-caitlin-ling-william-neurohr-rin-3064-ag19.pdf",
    "words": 7824
   },
   {
    "id": "ddcp-foundation-inc-rodolfo-j-novarini-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/ddcp-foundation-inc-rodolfo-j-novarini-3064-ag19.pdf",
    "words": 6148
   },
   {
    "id": "deconflict-inc-mudassar-malik-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/deconflict-inc-mudassar-malik-rin-3064-ag19.pdf",
    "words": 805
   },
   {
    "id": "dfk-helper-llc-gabriel-grillo",
    "rin": "?",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/dfk-helper-llc-gabriel-grillo.pdf",
    "words": 2127
   },
   {
    "id": "digital-chamber-code-carbone-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/digital-chamber-code-carbone-rin-3064-ag19.pdf",
    "words": 21841
   },
   {
    "id": "dylan-grieve-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/dylan-grieve-rin-3064-ag20.pdf",
    "words": 466
   },
   {
    "id": "e-lawrence-anderson-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/e-lawrence-anderson-rin-3064-ag20.pdf",
    "words": 513
   },
   {
    "id": "empty-set-llc-brice-love-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/empty-set-llc-brice-love-rin-3064-ag20.pdf",
    "words": 3780
   },
   {
    "id": "eric-l-anderson-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/eric-l-anderson-rin-3064-ag19.pdf",
    "words": 1175
   },
   {
    "id": "fintech-lawyer-daniel-wheeler-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/fintech-lawyer-daniel-wheeler-rin-3064-ag19.pdf",
    "words": 3944
   },
   {
    "id": "fiserv-kimberly-ford-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/fiserv-kimberly-ford-rin-3064-ag19.pdf",
    "words": 5300
   },
   {
    "id": "gleif-alexandre-kech-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/gleif-alexandre-kech-rin-3064-ag19.pdf",
    "words": 2115
   },
   {
    "id": "hsbc-manish-kohli-thomas-halpin-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/hsbc-manish-kohli-thomas-halpin-rin-3064-ag19.pdf",
    "words": 734
   },
   {
    "id": "ibat-christopher-williston-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/ibat-christopher-williston-rin-3064-ag19.pdf",
    "words": 3161
   },
   {
    "id": "icba-brian-laverdure-amy-ledig-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/icba-brian-laverdure-amy-ledig-rin-3064-ag19.pdf",
    "words": 18590
   },
   {
    "id": "iib-beth-zorc-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/iib-beth-zorc-rin-3064-ag19.pdf",
    "words": 6102
   },
   {
    "id": "inca-digital-adam-zarazinski-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/inca-digital-adam-zarazinski-rin-3064-ag20.pdf",
    "words": 3257
   },
   {
    "id": "interledger-foundation-briana-marbury-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/interledger-foundation-briana-marbury-rin-3064-ag19.pdf",
    "words": 4224
   },
   {
    "id": "international-bancshares-corporation-dennis-e-nixon-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/international-bancshares-corporation-dennis-e-nixon-rin-3064-ag19.pdf",
    "words": 344
   },
   {
    "id": "international-bancshares-corporation-dennis-e-nixon-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/international-bancshares-corporation-dennis-e-nixon-rin-3064-ag20.pdf",
    "words": 449
   },
   {
    "id": "iso-sag-todd-albers-and-karla-mckenna-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/iso-sag-todd-albers-and-karla-mckenna-rin-3064-ag20.pdf",
    "words": 757
   },
   {
+   "id": "kansas-bankers-association-douglas-wareham-terri-thomas-rin-3064-ag19",
+   "rin": "AG19",
+   "kind": "letter",
+   "source_pdf": "https://www.fdic.gov/federal-register-publications/kansas-bankers-association-douglas-wareham-terri-thomas-rin-3064-ag19",
+   "words": 3289
+  },
+  {
    "id": "kayanda-llc-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/kayanda-llc-rin-3064-ag19.pdf",
    "words": 1059
   },
   {
    "id": "meeting-memo-between-fdic-and-icba-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "memo",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/meeting-memo-between-fdic-and-icba-rin-3064-ag19.pdf",
    "words": 125
   },
   {
    "id": "merrimack-county-savings-bank-wendy-f-clark-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/merrimack-county-savings-bank-wendy-f-clark-rin-3064-ag20.pdf",
    "words": 3451
   },
   {
    "id": "merrimack-village-savings-bank-wendy-f-clark-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/merrimack-village-savings-bank-wendy-f-clark-rin-3064-ag20.pdf",
    "words": 3449
   },
   {
    "id": "michael-ravnitzky-january-12-2026-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/michael-ravnitzky-january-12-2026-rin-3064-ag20.pdf",
    "words": 1694
   },
   {
    "id": "michael-ravnitzky-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/michael-ravnitzky-rin-3064-ag19.pdf",
    "words": 1924
   },
   {
    "id": "michael-ravnitzky-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/michael-ravnitzky-rin-3064-ag20.pdf",
    "words": 1403
   },
   {
    "id": "mona-armande-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/mona-armande-rin-3064-ag19.pdf",
    "words": 1936
   },
   {
    "id": "money-services-association-msba-kathy-tomasofsky-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/money-services-association-msba-kathy-tomasofsky-rin-3064-ag20.pdf",
    "words": 829
   },
   {
    "id": "ncrc-jesse-van-tol-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/ncrc-jesse-van-tol-rin-3064-ag19.pdf",
    "words": 2168
   },
   {
+   "id": "new-york-department-financial-services-kaitlin-asrow-rin-3064-ag20",
+   "rin": "AG20",
+   "kind": "letter",
+   "source_pdf": "https://www.fdic.gov/federal-register-publications/new-york-department-financial-services-kaitlin-asrow-rin-3064-ag20",
+   "words": 1876
+  },
+  {
    "id": "paradigm-operations-lp-stefan-schropp-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/paradigm-operations-lp-stefan-schropp-rin-3064-ag19.pdf",
    "words": 2594
   },
   {
    "id": "paypal-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/paypal-rin-3064-ag19.pdf",
    "words": 7991
   },
   {
    "id": "policy-team-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/policy-team-rin-3064-ag19.pdf",
    "words": 1163
   },
   {
    "id": "ripple-jack-mcdonald-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/ripple-jack-mcdonald-rin-3064-ag19.pdf",
-   "words": 0
+   "words": 4387
   },
   {
    "id": "robert-rukowski-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/robert-rukowski-3064-ag19.pdf",
    "words": 468
   },
   {
    "id": "savings-bank-walpole-wendy-f-clark-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/savings-bank-walpole-wendy-f-clark-rin-3064-ag20.pdf",
    "words": 3471
   },
   {
    "id": "sds-municipal-consulting-llc-sarah-davenport-smith-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/sds-municipal-consulting-llc-sarah-davenport-smith-rin-3064-ag19.pdf",
    "words": 1278
   },
   {
    "id": "societe-generale-jean-yves-fillion-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/societe-generale-jean-yves-fillion-rin-3064-ag19.pdf",
    "words": 2764
   },
   {
    "id": "stellar-cadace-kelly-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/stellar-cadace-kelly-rin-3064-ag19.pdf",
    "words": 2872
   },
   {
+   "id": "supplemental-comment-auditchain-labs-ag-jason-meyers-rin-3064-ag20",
+   "rin": "AG20",
+   "kind": "letter",
+   "source_pdf": "https://www.fdic.gov/federal-register-publications/supplemental-comment-auditchain-labs-ag-jason-meyers-rin-3064-ag20",
+   "words": 8484
+  },
+  {
    "id": "sutton-bank-j-anthony-gorrell-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/sutton-bank-j-anthony-gorrell-rin-3064-ag20.pdf",
-   "words": 0
+   "words": 1078
   },
   {
    "id": "texas-bankers-association-chris-furlow-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/texas-bankers-association-chris-furlow-rin-3064-ag19.pdf",
    "words": 2165
   },
   {
    "id": "turnhouse-consulting-david-martin-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/turnhouse-consulting-david-martin-rin-3064-ag19.pdf",
    "words": 17069
   },
   {
    "id": "twilight-lewis-tuff-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/twilight-lewis-tuff-rin-3064-ag19.pdf",
    "words": 1656
   },
   {
    "id": "us-faster-payments-council-reed-luhtanen-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/us-faster-payments-council-reed-luhtanen-rin-3064-ag20.pdf",
    "words": 643
   },
   {
    "id": "usbc-inc-greg-kidd-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/usbc-inc-greg-kidd-rin-3064-ag19.pdf",
    "words": 3072
   },
   {
    "id": "usig-digital-inc-david-petrie-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/usig-digital-inc-david-petrie-rin-3064-ag19.pdf",
    "words": 2612
   },
   {
    "id": "value-chain-risk-institute-joshua-marpet-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/value-chain-risk-institute-joshua-marpet-rin-3064-ag19.pdf",
    "words": 8303
   },
   {
    "id": "veloxvfx-llc-ed-g-haddadin-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/veloxvfx-llc-ed-g-haddadin-rin-3064-ag19.pdf",
    "words": 582
   },
   {
    "id": "veloxvfx-llc-ed-g-haddadin-supplemental-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/veloxvfx-llc-ed-g-haddadin-supplemental-rin-3064-ag19.pdf",
    "words": 1354
   },
   {
    "id": "white-buffalo-alliance-rick-dane-moore-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/white-buffalo-alliance-rick-dane-moore-rin-3064-ag19.pdf",
    "words": 4716
   },
   {
    "id": "wisconsin-bankers-association-rose-oswald-poels-rin-3064-ag19",
    "rin": "AG19",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/wisconsin-bankers-association-rose-oswald-poels-rin-3064-ag19.pdf",
    "words": 881
   },
   {
    "id": "wisconsin-bankers-association-rose-oswald-poels-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/wisconsin-bankers-association-rose-oswald-poels-rin-3064-ag20.pdf",
    "words": 929
   },
   {
    "id": "xbrl-us-campbell-pryde-rin-3064-ag20",
    "rin": "AG20",
+   "kind": "letter",
    "source_pdf": "https://www.fdic.gov/federal-register-publications/xbrl-us-campbell-pryde-rin-3064-ag20.pdf",
    "words": 3344
   }
